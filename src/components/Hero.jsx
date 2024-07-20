@@ -1,4 +1,4 @@
-import { HERO_CONTENT } from "../constants"
+import { HERO_CONTENT, HERO_CONTENT1 } from "../constants"
 import profilPic from "../assets/kevinRushProfile.png"
 import { motion } from "framer-motion";
 
@@ -32,7 +32,12 @@ const Hero = () => {
            <motion.p 
            variants={container(1)}
            initial="hidden"
-           animate="visible"className="my-2 max-w-xl  py-6 font-light tracking-tighter">{ HERO_CONTENT}</motion.p>
+           animate="visible"className="my-2 max-w-xl  py-6 font-light tracking-tighter">{ HERO_CONTENT}
+                        <br />
+                        <br />
+           { HERO_CONTENT1}
+           
+           </motion.p>
             </div>
             </div>
             <div className="w-full lg:w-1/2 lg:p-8">

@@ -3,37 +3,52 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `Front-End Development: Passionate full-stack developer in crafting robust and scalable web applications. Proficient in front-end technologies including React js, with a strong focus on creating innovative solutions that enhance user experiences and drive business growth.`;
+export const HERO_CONTENT1 =`
+Data Science: Engaged in Data Science Job Simulation with British Airways in July 2024, focusing on leveraging data science for company success. Specialized in scraping and analyzing customer review data, uncovering key insights, and building predictive models to understand buying behavior.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `In July 2024, I completed a Data Science Job Simulation with British Airways on Forage, focusing on the critical role of data science in the company's success. My work involved scraping and analyzing customer review data to uncover key findings and building a predictive model to understand the factors influencing buying behavior.
+
+In June 2024, I participated in a Data Analytics and Visualization role simulation with Accenture North America on Forage. This experience centered around advising a hypothetical social media client, where I cleaned, modeled, and analyzed 7 datasets to uncover content trends. I also prepared a comprehensive PowerPoint deck and video presentation to communicate strategic insights to the client and internal stakeholders.
+
+Additionally, in June 2024, I took part in the J.P. Morgan Software Engineering Virtual Experience on Forage. My tasks included setting up a local development environment, fixing broken files in a repository, and using JPMorgan Chase’s open-source library Perspective to generate a live graph for traders to monitor data feeds effectively.
+
+In December 2023, I worked as a Software Engineer in TCS's Practical Approach to Data Mining and Analytics program. My role involved leveraging technologies such as Ruby, Rails, PHP, and SQLite.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "July 2024",
+
+    company: "British Airways Data Science Job Simulation on Forage.",
+    description: `
+Completed a simulation focussing on how data science is a critical component of British Airways success
+Scraped and analysed customer review data to uncover findings
+Built a predictive model to understand factors that influence buying behaviour`,
+
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "June 2024",
+    role: "Data Analytics and Visualization r",
+    company: "Accenture North America Data Analytics and Visualization Job Simulation on Forage ",
+    description: `Completed a simulation focused on advising a hypothetical social media client as a Data Analyst at Accenture
+Cleaned, modelled and analyzed 7 datasets to uncover insights into content trends to inform strategic decisions
+Prepared a PowerPoint deck and video presentation to communicate key insights for the client and internal stakeholders.`,
+
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    year: "June 2024",
+
+    company: "J.P. Morgan Software Engineering Virtual Experience on Forage",
+    description: `Set up a local dev environment by downloading the necessary files, tools and dependencies.
+Fixed broken files in the repository to make web application output correctly.
+Used JPMorgan Chase’s open source library called Perspective to generate a live graph that displays a data feed in a clear and visually appealing way for traders to monitor.`,
+
   },
   {
-    year: "2020 - 2021",
+    year: "Dec 2023",
     role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
+    company: "TCS Practical Approach to Data Mining and Analytics",
+    description: `.`,
     technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
   },
 ];
